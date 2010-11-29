@@ -1,7 +1,9 @@
 use strict;
 use ExtUtils::MakeMaker;
+
+
 WriteMakefile(
-    NAME      => 'App-eijiro',
+    NAME      => 'Eijiro-Client',
     EXE_FILES => ['eijiro.pl'],
     PREREQ_PM => {
         'Furl'                 => 0.06,
